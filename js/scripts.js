@@ -93,7 +93,7 @@ $(document).ready(function () {
                 $('section.navigation').addClass('fixed');
                 $('header').css({
                     "border-bottom": "none",
-                    "padding": "15px 0"
+                    "padding-top": "15px"
                 });
                 $('header .member-actions').css({
                     "top": "26px",
