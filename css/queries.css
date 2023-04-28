@@ -454,7 +454,7 @@
     }
 
     .contact-img {
-        max-width: 270px
+        max-width: 310px
     }
 
     /* -------------------- */
@@ -521,6 +521,12 @@
     }
 
 }
+
+@media screen and (max-width: 400px) {
+    .contact-img {
+        max-width: 265px
+    }
+ }
 
 @media screen and (max-width: 320px) {
 
