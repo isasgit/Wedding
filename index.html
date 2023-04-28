@@ -80,6 +80,10 @@
       href="node_modules/font-awesome/css/font-awesome.min.css"
       onerror="loadCssFromCDN('font-awesome.css')"
     />
+    <script
+      src="https://kit.fontawesome.com/0998c3b7ca.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
 
@@ -96,24 +100,19 @@
         <header>
           <div class="header-content">
             <div class="logo">
-              <p>
-                <span class="fa fa-heart pulse2"></span>
+              <p class="logo-heart">
+                <a href="#"><span class="fa fa-heart pulse2"></span></a>
               </p>
             </div>
             <div class="header-nav">
               <nav>
                 <ul class="primary-nav">
-                  <li><a href="#intro">How we met</a></li>
                   <li><a href="#events">Events</a></li>
-                  <!-- <li><a href="#instagram">Instagram</a></li>
-                  <li><a href="#eng-pics">Engagement</a></li>
-                  <li class="hidden-sm hidden-xs">
-                    <a href="#video-bg">Glimpse of the city</a>
-                  </li> -->
-                </ul>
-                <ul class="member-actions">
-                  <li><a href="#map" class="login">Venue</a></li>
-                  <li><a href="#rsvp" class="btn-small">RSVP</a></li>
+                  <li><a href="#dress-code">Dress code</a></li>
+                  <li><a href="#timeline">Timeline</a></li>
+                  <li><a href="#map">Directions</a></li>
+                  <li><a href="#rsvp">RSVP</a></li>
+                  <li><a href="#contact-us">Contact us</a></li>
                 </ul>
               </nav>
             </div>
@@ -124,58 +123,30 @@
         </header>
       </section>
       <div class="container">
-        <div class="row title-row">
-          <!-- <div class="col-sm-4 hidden-xs"></div> -->
+        <div class="row title-row animated fadeInDown delay-1s">
           <div class="col-sm-12 text-center page-title">
             <img class="title" src="img/thewedding.svg" alt="" />
           </div>
-          <!-- <div class="col-sm-4 hidden-xs"></div> -->
         </div>
-        <div class="row picture-row">
-          <!-- <div class="col-sm-4 hidden-xs"></div> -->
+        <div class="row picture-row animated fadeInUp delay-1s">
           <div class="col-sm-12 text-center front">
             <img class="front-img" src="img/img7.jpg" alt="" />
           </div>
-          <!-- <div class="col-sm-4 hidden-xs"></div> -->
         </div>
       </div>
-      <!-- <div class="down-arrow floating-arrow">
-        <a href="#invitation"><i class="fa fa-angle-down"></i></a>
-      </div> -->
+      
     </section>
 
-    <!-- <section id="invitation" class="section-padding">
+    <section id="intro" class="section-padding">
       <div class="container">
         <div class="row">
-           <div class="col-md-12 text-center"> 
-             <h3>We are getting married!</h3>
-            <p>
-              The date is 27<sup>th</sup> of September 2023 and we would like
-              you to be a part of it.
-            </p> 
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <section id="intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <!-- <h3 class="header">How we met</h3> -->
-          </div>
-        </div>
-        <div class="row">
-          <!-- <div class="col-md-3 hidden-sm hidden-xs">
-            <img src="img/luna2.jpg" class="wp1" />
-          </div> -->
-
           <div class="col-md-8 col-md-offset-2 text-center ">
             <p class="p-font-size">
               ALĂTURI DE FAMILII ȘI NAȘII CHRISTIANA ȘI ANDREI ALECU, VĂ INVITĂM
               CU DRAG ȘI EMOȚIE SĂ NE FIȚI ALĂTURI LA CELEBRAREA CĂSĂTORIEI
-              NOASTRE.
+              NOASTRE. <span class="fa fa-heart pulse2"></span>
             </p>
+            <p class="p-font-size">16 SEPTEMBRIE 2023</p>
           </div>
         </div>
       </div>
@@ -191,33 +162,42 @@
         <div class="row">
           <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
             <div class="wp4 events-info">
-              <p>16. 09. 2023</p>
-
               <h5>CEREMONIA RELIGIOASĂ</h5>
-              <p>ORA 16:00</p>
-              <p>
+              <p class="events-text">ORA 16:00</p>
+              <p class="events-text">
                 BISERICA SFÂNTUL GHEORGHE NOU
               </p>
+              <a
+                class="btn-directions"
+                href="https://www.waze.com/en/live-map/directions/biserica-sfantul-gheorghe-nou-str.-lipscani-bucuresti?latlng=44.432465330897976%2C26.104603529238382&navigate=yes&utm_campaign=default&utm_medium=lm_share_location&utm_source=waze_website"
+                ><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;</a
+              >
             </div>
             <div class="wp4  events-info">
-              <p>16. 09. 2023</p>
-
               <h5>COCKTAIL HOUR</h5>
-              <p>ORA 18:30</p>
-              <p>
+              <p class="events-text">ORA 18:30</p>
+              <p class="events-text">
                 IRIS ORANGERIE
               </p>
+              <a
+                class="btn-directions"
+                href="https://www.waze.com/en/live-map/directions/ro/if/comuna-ciolpani/iris-orangerie?latlng=44.715817472906416%2C26.11811757087708"
+                ><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;</a
+              >
             </div>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
             <div class="wp4 events-info">
-              <p>16. 09. 2023</p>
-
               <h5>WEDDING PARTY</h5>
-              <p>ORA 19:30</p>
-              <p>
+              <p class="events-text">ORA 19:30</p>
+              <p class="events-text">
                 IRIS ORANGERIE
               </p>
+              <a
+                class="btn-directions"
+                href="https://www.waze.com/en/live-map/directions/ro/if/comuna-ciolpani/iris-orangerie?latlng=44.715817472906416%2C26.11811757087708"
+                ><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;</a
+              >
             </div>
             <div class="wp3">
               <img src="img/img88 (1).jpg" alt="" />
@@ -235,7 +215,7 @@
     <section id="dress-code" class="section-padding">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 text-center animated fadeInDown delay-3s">
             <h3>DRESS CODE</h3>
             <p>
               BLACK TIE
@@ -251,7 +231,7 @@
 
     <section id="eng-pics" class="location-padding">
       <div class="row">
-        <div class="col-md-3 location-pic">
+        <div class="col-md-3 hidden-xs hidden-sm location-pic">
           <a class="fancybox" rel="group" href="img/location1 (1).jpg">
             <div class="img-wrap">
               <div class="overlay">
@@ -271,7 +251,7 @@
             </div>
           </a>
         </div>
-        <div class="col-md-3 location-pic">
+        <div class="col-md-3 hidden-xs hidden-sm location-pic">
           <a class="fancybox" rel="group" href="img/location4.jpg">
             <div class="img-wrap">
               <div class="overlay">
@@ -294,34 +274,35 @@
       </div>
     </section>
 
-    <section id="timeline">
+    <section id="timeline" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h3>TIMELINE</h3>
+            <h3>WEDDING DAY TIMELINE</h3>
+            <p>
+              SCREENSHOT THIS!
+            </p>
           </div>
         </div>
-        <div class="row">
+        <div class="row animated fadeInUp delay-1s">
           <div id="timeline-content">
             <ul class="timeline">
-              <li class="event" data-date="65Million B.C.">
-                <h3>Dinosaurs Roamed the Earth</h3>
-                <p>RAWWWWWWRRR 🐢🦂</p>
+              <li class="event" data-date="16:00">
+                <h3 class="timeline-text">Ceremonie religioasa</h3>
+                <img class="timeline-photo" src="img/church.png" alt="" />
               </li>
-              <li class="event" data-date="2005">
-                <h3>Creative Component Launched</h3>
-                <p>"We can be all things to all people!" 📣</p>
+              <li class="event" data-date="17:30">
+                <h3 class="timeline-text">Transport</h3>
+                <img class="timeline-photo" src="img/just-married.png" alt="" />
               </li>
-              <li class="event" id="date" data-date="2009">
-                <h3>Squareflair was Born</h3>
-                <p></p>
-                <p>"We can be all things to Squarespace users!" 📣</p>
+              <li class="event" id="date" data-date="18:30">
+                <h3 class="timeline-text">Cocktail hour</h3>
+                <img class="timeline-photo" src="img/cocktail.png" alt="" />
               </li>
 
-              <li class="event" data-date="2021">
-                <h3>Squareflair Today</h3>
-
-                <p>content</p>
+              <li class="event" data-date="19:30">
+                <h3 class="timeline-text">Wedding party</h3>
+                <img class="timeline-photo" src="img/confetti.png" alt="" />
               </li>
             </ul>
           </div>
@@ -329,38 +310,39 @@
       </div>
     </section>
 
-    <!-- <section id="video-bg" class="hidden-sm hidden-xs">
-      <div
-        id="bgndVideo"
-        class="player"
-        data-property="{videoURL:'https://youtu.be/Faow3SKIzq0',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}"
-      ></div>
-      <div id="video-content">
-        <h5>September Wedding Vibes</h5>
-      </div>
-    </section> -->
-
     <section id="map" class="section-padding">
       <div class="text-center">
         <h3>How do I get there?</h3>
-        <p>It's way easier than you think!</p>
+        <p></p>
       </div>
       <div class="pointer-events-auto col-md-8 col-md-offset-2">
         <div id="map-content" class="row text-center">
           <div class="row">
-            <div class="col-md-12">
-              <h5>Event location name</h5>
-              <p>Event location street, number, details, place</p>
+            <div class="col-md-6 directions">
+              <h5>Biserica Sfântul Gheorghe Nou</h5>
+              <p class="directions-text">Strada Lipscani, București</p>
+              <a
+                class="btn-directions"
+                href="https://www.waze.com/en/live-map/directions/biserica-sfantul-gheorghe-nou-str.-lipscani-bucuresti?latlng=44.432465330897976%2C26.104603529238382&navigate=yes&utm_campaign=default&utm_medium=lm_share_location&utm_source=waze_website"
+                ><i class="fa-solid fa-location-dot fa-bounce"></i
+                >&nbsp;&nbsp;Directions</a
+              >
+            </div>
+            <div class="col-md-6">
+              <h5>Iris Orangerie</h5>
+              <p class="directions-text">
+                strada Platanilor 16, Ciolpani Ilfov
+              </p>
+              <a
+                class="btn-directions"
+                href="https://www.waze.com/en/live-map/directions/ro/if/comuna-ciolpani/iris-orangerie?latlng=44.715817472906416%2C26.11811757087708"
+                ><i class="fa-solid fa-location-dot fa-bounce"></i
+                >&nbsp;&nbsp;Directions</a
+              >
             </div>
           </div>
           <div class="row text-center">
-            <div class="col-md-12" style="padding: 5px;">
-              <a
-                class="btn btn-fill btn-small"
-                href="https://www.waze.com/en/live-map/directions?latlng=44.73421154463432%2C26.195397377014164"
-                ><i class="fa fa-taxi"></i>&nbsp;&nbsp;Waze directions</a
-              >
-            </div>
+            <div class="col-md-12" style="padding: 5px;"></div>
           </div>
         </div>
       </div>
@@ -394,31 +376,25 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <h3>What are you waiting for?</h3>
+            <h3>RSVP</h3>
             <p>
-              We would greatly appreciate if you could RSVP before 1st of August
-              2023
+              Vă rugăm să ne confirmați prezența până la data de 16 IUNIE 2023
             </p>
             <form id="rsvp-form" class="rsvp-form" action="" method="POST">
               <div class="row">
                 <div class="col-md-6 col-sm-6">
                   <div class="form-input-group">
-                    <i class="fa fa-user"></i
-                    ><input
-                      name="name"
-                      class=""
-                      placeholder="Your name"
-                      required
-                    />
+                    <i class="fa-solid fa-user"></i
+                    ><input name="name" class="" placeholder="Nume" required />
                   </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
                   <div class="form-input-group">
-                    <i class="fa fa-envelope"></i
+                    <i class="fa-solid fa-phone"></i
                     ><input
                       name="phone"
                       class=""
-                      placeholder="Your phone number"
+                      placeholder="Numar de telefon"
                       required
                     />
                   </div>
@@ -427,14 +403,14 @@
               <div class="row">
                 <div class="col-md-6 col-sm-6">
                   <div class="form-input-group">
-                    <i class="fa fa-users"></i
+                    <i class="fa-solid fa-user-plus"></i
                     ><input
                       type="number"
                       name="extras"
                       class=""
                       min="0"
                       max="3"
-                      placeholder="Husband/Wife or kids"
+                      placeholder="Plus one"
                       required
                     />
                   </div>
@@ -442,17 +418,13 @@
                 <div class="col-md-6 col-sm-6">
                   <div class="form-input-group">
                     <i class="fa fa-users"></i
-                    ><input
-                      name="extras-name"
-                      class=""
-                      placeholder="ex: Adult: name; Child (age): name;"
-                    />
+                    ><input name="extras-name" class="" placeholder="Nume" />
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12 col-sm-12 radio-options">
-                  <span>Are you attending the church events ?</span>
+                  <span>Participați la ceremonia religioasă ?</span>
                   <div class="form-check form-check-inline">
                     <input
                       class="form-check-input"
@@ -463,7 +435,7 @@
                       checked
                     />
                     <label class="form-check-label" for="churchEventsYes">
-                      Yes
+                      Da
                     </label>
                   </div>
                   <div class="form-check form-check-inline">
@@ -475,14 +447,14 @@
                       id="churchEventsNo"
                     />
                     <label class="form-check-label" for="churchEventsNo">
-                      No
+                      Nu
                     </label>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12 col-sm-12 radio-options">
-                  <span>Are you attending the wedding party ?</span>
+                  <span>Participați la petrecere ?</span>
                   <div class="form-check form-check-inline">
                     <input
                       class="form-check-input"
@@ -493,7 +465,7 @@
                       checked
                     />
                     <label class="form-check-label" for="weddingPartyYes">
-                      Yes
+                      Da
                     </label>
                   </div>
                   <div class="form-check form-check-inline">
@@ -505,25 +477,24 @@
                       id="weddingPartyNo"
                     />
                     <label class="form-check-label" for="weddingPartyNo">
-                      No
+                      Nu
                     </label>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12 col-sm-12 radio-options">
-                  <span>Do you want a vegan menu option ?</span>
+                  <span>Aveți nevoie de transport ?</span>
                   <div class="form-check form-check-inline">
                     <input
                       class="form-check-input"
                       type="radio"
                       value="Yes"
-                      name="vegan"
-                      id="veganYes"
-                      checked
+                      name="transport"
+                      id="transportYes"
                     />
-                    <label class="form-check-label" for="veganYes">
-                      Yes
+                    <label class="form-check-label" for="transportYes">
+                      Da
                     </label>
                   </div>
                   <div class="form-check form-check-inline">
@@ -531,12 +502,26 @@
                       class="form-check-input"
                       type="radio"
                       value="No"
-                      name="vegan"
-                      id="veganNo"
+                      name="transport"
+                      id="transportNo"
+                      checked
                     />
-                    <label class="form-check-label" for="veganNo">
-                      No
+                    <label class="form-check-label" for="transportNo">
+                      Nu
                     </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-input-group">
+                    <i class="fa-solid fa-envelope"></i
+                    ><input
+                      name="message"
+                      class=""
+                      placeholder="Vreți să ne transmiteți ceva?"
+                    />
                   </div>
                 </div>
               </div>
@@ -553,6 +538,27 @@
       </div>
     </section>
 
+    <section id="contact-us" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h3>Contact us</h3>
+            </div>
+          </div>
+
+          <div class="row contact-row">
+            <div class="col-md-6 col-sm-12 contact-square text-center contact-info">
+              <p>Contact info</p>
+              <p> <span  class="fa fa-phone"></span> 0743337856</p>
+              <p> <span  class="fa fa-phone"></span> 0743337856</p>
+            </div>
+            <div class="col-md-6 col-sm-12 contact-square text-center">
+              <img class="contact-img" src="img/img22.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
     <footer>
       <div class="container">
         <div class="row">
@@ -560,9 +566,7 @@
             <span class="to-top-wrapper"
               ><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a
             ></span>
-            <p>
-              <span class="fa fa-heart pulse2"></span>
-            </p>
+            <p>Ready to party? <span class="fa fa-heart pulse2"></span></p>
           </div>
         </div>
       </div>

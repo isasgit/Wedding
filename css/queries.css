@@ -9,9 +9,30 @@
         width: 70%;
     }
 
+    .contact-square {
+        max-width: 45%;
+    }
+
+    .contact-img {
+        max-width: 380px;
+    }
+
+    .hero .hero-content {
+        padding-top: 50%;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
+
+    .contact-square {
+        max-width: 45%;
+    }
+
+    .contact-img {
+        max-width: 380px;
+    }
+
     .hero .hero-content {
         padding-top: 50%;
     }
@@ -19,6 +40,20 @@
 
 /* Responsive nav kicks in */
 @media screen and (max-width: 991px) {
+
+    .contact-img {
+        max-width: 315px;
+    }
+
+    .contact-row {
+        gap: 20px;
+    }
+
+    .contact-square {
+       
+        max-width: 49%;
+    }
+
     header {
         width: 90%;
         padding-left: 25px;
@@ -252,7 +287,63 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .contact-row {
+        display: block;
+        margin: 50px 20px; 
+    }
+
+    .contact-square.text-center {
+         padding: 40px 0;
+    }
+
+    .contact-square {
+        padding: 20px;
+        border: solid 1px #000;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact-img {
+        max-width: 495px;
+    }
+
+    .rsvp {
+        margin: 0 20px;
+    }
+
+}
+
 @media screen and (max-width: 640px) {
+
+    .contact-row {
+        display: block;
+        margin: 50px 20px; 
+    }
+
+    .contact-square.text-center {
+        padding: 20px 0;
+    }
+
+    .contact-square {
+        padding: 20px;
+        border: solid 1px #000;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact-img {
+        max-width: 395px;
+    }
+
+    .rsvp {
+        margin: 0 20px;
+    }
+
+    .wp3 img {
+        padding: 0;
+    }
+
     .hero .hero-content {
         padding-top: 100%;
     }
@@ -292,6 +383,82 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    .timeline {
+        left: 30px;
+    }
+
+    .page-title .title {
+        max-width: 300px;
+        max-height: 300px;
+        margin-top: 120px;
+    }
+
+    .front .front-img {
+        max-width: 400px;
+        max-height: 450px
+    }
+
+    .p-font-size {
+        font-size: 13px;
+    }
+
+    .events-info {
+        margin: 20px 20px;
+        height: 300px;
+        margin-bottom: 40px;
+        padding-top: 90px;
+    }
+
+    .events-text {
+        padding: 0;
+    }
+
+    .wp3 img {
+        padding: 0 20px;
+    }
+
+    .rsvp {
+        margin: 0 20px;
+    }
+
+    .rsvp .rsvp-form .radio-options {
+        display: flex;
+        gap: 30px;
+        justify-content: flex-end;
+        margin: 13px 0;
+    }
+
+    .rsvp .rsvp-form .rsvp-btn {
+        margin-top: 20px;
+        padding: 15px 10px;
+        border-radius: 0px;
+        font-size: 13px;
+        width: 40%;
+    }
+
+    .contact-row {
+        display: block;
+        margin: 50px 20px; 
+    }
+
+    .contact-square.text-center {
+        padding: 20px 0;
+    }
+
+    .contact-square {
+        padding: 20px;
+        border: solid 1px #000;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact-img {
+        max-width: 270px
+    }
+
+    /* -------------------- */
+
     .hero .hero-content {
         padding-top: 110%;
     }
@@ -356,6 +523,32 @@
 }
 
 @media screen and (max-width: 320px) {
+
+    .contact-row {
+        display: block;
+        margin: 50px 0; 
+    }
+
+    .contact-square.text-center {
+        padding: 20px 0;
+    }
+
+    .contact-square {
+        padding: 20px;
+        border: solid 1px #000;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact-img {
+        max-width: 250px
+    }
+
+    .front .front-img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
     .hero .hero-content {
         padding-top: 130%;
     }
