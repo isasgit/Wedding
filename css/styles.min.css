@@ -426,6 +426,10 @@ section .header {
   font-size: 18px;
 }
 
+.p-font-size-date {
+    font-size: 20px;
+}
+
 .location-pic {
   margin-bottom: 20px;
 }
@@ -855,6 +859,10 @@ header .member-actions {
   color: rgba(28, 54, 83, 0.6);
 }
 
+.events-title {
+    font-size: 18px;
+}
+
 .events-info {
   padding: 30px;
   height: 400px;
@@ -1117,12 +1125,22 @@ header .member-actions {
 }
 
 .contact-info {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .contact-img {
     max-width: 400px
 }
+
+.contact-title {
+    font-size: 18px;
+}
+
+.contact-name {
+    padding: 0;
+    font-weight: bold;
+}
+
 
 .directions-text {
     padding: 0;
@@ -1236,7 +1254,7 @@ footer .to-top-wrapper {
   font-size: 30px;
   display: block;
   cursor: pointer;
-  margin: -25px auto 50px;
+  margin: -25px auto 20px;
   border-radius: 50%;
   width: 50px;
   height: 50px;

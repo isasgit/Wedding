@@ -400,7 +400,11 @@
     }
 
     .p-font-size {
-        font-size: 13px;
+        font-size: 14px;
+    }
+
+    .p-font-size-date {
+        font-size: 16px;
     }
 
     .events-info {
