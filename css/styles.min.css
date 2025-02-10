@@ -645,8 +645,12 @@ header .member-actions {
   transition: all 300ms ease-in-out;
 }
 
+.custom-heart {
+  color: red;
+}
+
 .logo-heart a {
-    color: black;
+    color: red;
     font-size: 25px !important;
 }
 
